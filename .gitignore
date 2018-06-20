@@ -1,0 +1,13 @@
+venv/
+.virtualenv/
+virtualenv/
+.idea/
+__pycache__/
+
+
+
+static/node_modules/
+static/yarn-error.log
+static/public/dist/
+static/.env.test
+static/.env.development

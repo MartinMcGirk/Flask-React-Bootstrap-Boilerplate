@@ -1,0 +1,5 @@
+import os
+
+SECRET_KEY = os.environ.get('SECRET_KEY', 'insecurekeyfordev')
+SQLALCHEMY_DATABASE_URI = os.environ['SQLALCHEMY_DATABASE_URI']
+SQLALCHEMY_TRACK_MODIFICATIONS = False
