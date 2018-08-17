@@ -11,7 +11,7 @@
     "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
     "test:watch": "cross-env NODE_ENV=test jest --config=jest.config.json --watch",
     "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod"
+    "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",

@@ -56,7 +56,7 @@ To run the backend:
 Once you've got that running you can get started with the frontend:
 
     cd static
-    yarn install
+    npm install
 
 Then because the api runs on port 5000, and the frontend runs separately for development
 you should add a file to the `static` folder called `.env.development` and add the following
@@ -66,7 +66,7 @@ line to it:
 
 Then start the frontend with:
 
-    yarn run dev-server
+    npm run dev-server
 
 Uses basic auth to get a token from /login and then token auth from there out.
 Put your token in the x-access-token header field/
